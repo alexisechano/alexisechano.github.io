@@ -80,7 +80,7 @@ ul.nav-bar li.right {
 }
 
 .sidebar {
-    height: auto;
+    height: 100%;
     width: 25%;
     z-index: 1;
     top: 0;
