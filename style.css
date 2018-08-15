@@ -98,9 +98,8 @@ ul.nav-bar li.right {
 .sidebar img{
     border-radius: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
+    height: 50%;
     padding: 10px;
 }
 
