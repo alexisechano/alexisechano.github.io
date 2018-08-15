@@ -82,7 +82,6 @@ ul.nav-bar li.right {
 .sidebar {
     height: 100%;
     width: 25%;
-    position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
