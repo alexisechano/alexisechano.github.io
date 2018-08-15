@@ -27,8 +27,8 @@ h2 {
 }
 
 .intro-image img {
-    width: 100%;
-    height: auto;
+    width: 75%;
+    height: 200px;
     opacity: 0.3;
 }
 
