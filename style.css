@@ -27,8 +27,8 @@ h2 {
 }
 
 .intro-image img {
-    width: 75%;
-    height: 200px;
+    width: 200px;
+    height: auto;
     opacity: 0.3;
 }
 
@@ -36,7 +36,7 @@ h2 {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    font-size: 18px;
+    font-size: 75px;
     font-family: 'Playfair Display', serif;
 }
 
