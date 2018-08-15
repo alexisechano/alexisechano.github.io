@@ -28,7 +28,11 @@ li {
     
 }
 
-img {
+.intro-image {
+    position: relative;
+}
+
+.intro-image img {
     width: 100%;
     height: auto;
     opacity: 0.3;
