@@ -23,6 +23,7 @@ h2 {
 
 .wrapper.style1 h1{
     font-size: 5em;
+    color: #b76e79;
 }
 
 .wrapper.style2 {
@@ -31,5 +32,5 @@ h2 {
         color: #fff;
 }
 .wrapper.style2 h1{
-    font-size: 3em;
+    color: #b76e79;
 }
