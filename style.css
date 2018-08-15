@@ -43,14 +43,13 @@ h2 {
 ul.nav-bar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 80px;
     overflow: hidden;
     background-color: #B7C3DB;
 }
 
 ul.nav-bar li {
     float: left;
-    padding-left: 80px;
 }
 
 ul.nav-bar li a {
