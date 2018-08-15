@@ -34,8 +34,8 @@ ul {
     top: 0;
     margin: 0;
     padding: 0;
-    border: 1px solid white;
-    background-color: white;
+    border: 1px solid gray;
+    background-color: gray;
     
 }
 
@@ -48,7 +48,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #B7C3DB;
 }
 
 img{
