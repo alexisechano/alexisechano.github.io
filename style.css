@@ -81,7 +81,7 @@ ul.nav-bar li.right {
 
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 25%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -96,17 +96,6 @@ ul.nav-bar li.right {
     .sidebar {padding-top: 15px;}
 }
 
-.sidebar img{
-    border-radius: 50%;
-}
-
-.sidebar h1{
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin: auto;
-  
-}
 
 .about {
     background-color: #B7C3DB;
