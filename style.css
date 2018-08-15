@@ -27,20 +27,20 @@ h2 {
     margin: auto;
 }
 
-.nav-bar li{
+li{
     display: inline;
     float: left;
     
 }
 
-.nav-bar ul {
+ul {
     /*position: -webkit-sticky;  Safari */
     position: sticky; 
     top: 0;
     
 }
 
-.nav-bar li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -48,7 +48,7 @@ h2 {
     text-decoration: none;
 }
 
-.nav-bar li a:hover {
+li a:hover {
     background-color: #111;
 }
 .wrapper.style1 h1{
