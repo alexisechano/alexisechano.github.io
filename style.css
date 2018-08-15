@@ -79,7 +79,7 @@ ul.nav-bar li.right {
     }
 }
 
-.sidenav {
+.sidebar {
     height: 100%;
     width: 160px;
     position: fixed;
@@ -98,15 +98,14 @@ ul.nav-bar li.right {
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidebar {padding-top: 15px;}
 }
 
-.sidenav img{
+.sidebar img{
     border-radius: 50%;
 }
 
-.sidenav h1{
+.sidebar h1{
     font-size: 50px;
     color: white;
     text-align: center;
