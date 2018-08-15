@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 html {
-    background-color: white;
+    background-color: #eaeaea;
 }
 
 body{
-    color: #404040;
+    color: #B7C3DB;
     font-family: 'Playfair Display', serif;
     margin: 0px;
     height: calc(100% - 100vh);
@@ -23,13 +23,13 @@ h1 {
 }
 
 h2 {
-    font-size: 150px;
+    font-size: 75px;
     text-align: left;
 }
 
 .introductionArea{
-    height: 730px
-    background-color: gray;
+    height: 730px;
+    background-color: #eaeaea;
 }
 
 .wrapper.style1 h1{
@@ -37,11 +37,3 @@ h2 {
     color: #B7C3DB;
 }
 
-.wrapper.style2 {
-        background-color: gray;
-        background-attachment: fixed;
-        color: #fff;
-}
-.wrapper.style2 h1{
-    color: #B7C3DB;
-}
