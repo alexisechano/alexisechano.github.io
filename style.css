@@ -113,5 +113,15 @@ ul.nav-bar li.right {
   
 }
 
+.about {
+    background-color: #B7C3DB;
+    padding: 20px;
+    
+}
 
+.about p{
+    color: white;
+    font-size: 20px;
+    
+}
 
