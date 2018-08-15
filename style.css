@@ -28,6 +28,11 @@ li {
     
 }
 
+img {
+    max-width: 80%;
+    height: auto;
+}
+
 ul {
     /*position: -webkit-sticky;  Safari */
     position: sticky; 
@@ -51,10 +56,5 @@ li a:hover {
     background-color: #B7C3DB;
 }
 
-img{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-}
+
 
