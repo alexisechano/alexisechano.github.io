@@ -27,6 +27,23 @@ h2 {
     margin: auto;
 }
 
+.nav-bar li{
+    display: inline;
+    float: left;
+    
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background-color: #111;
+}
 .wrapper.style1 h1{
     font-size: 5em;
     color: #B7C3DB;
