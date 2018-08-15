@@ -80,14 +80,26 @@ ul.nav-bar li.right {
 }
 
 .sidenav {
-    width: 130px;
+    height: 100%;
+    width: 160px;
     position: fixed;
     z-index: 1;
-    top: 20px;
-    right: 10px;
-    background: #B7C3DB;
+    top: 0;
+    left: 0;
+    background-color: #B7C3DB;
     overflow-x: hidden;
-    padding: 8px 0;
+    padding-top: 20px;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 .sidenav img{
