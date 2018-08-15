@@ -15,3 +15,6 @@ h1 {
     max-width: 650px;
 
 }
+.wrapper.style1 h1{
+    font-size: 3em;
+}
