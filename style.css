@@ -50,8 +50,15 @@ li a {
 li a:hover {
     background-color: #111;
 }
-.wrapper.style1 h1{
+.intro-style h1{
     font-size: 5em;
     color: #B7C3DB;
+}
+
+.intro-style img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
