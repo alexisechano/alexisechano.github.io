@@ -33,6 +33,13 @@ h2 {
     
 }
 
+.nav-bar ul {
+    /*position: -webkit-sticky;  Safari */
+    position: sticky; 
+    top: 0;
+    
+}
+
 .nav-bar li a {
     display: block;
     color: white;
