@@ -50,6 +50,7 @@ ul.nav-bar {
 
 ul.nav-bar li {
     float: left;
+    padding-left: 80px;
 }
 
 ul.nav-bar li a {
