@@ -6,3 +6,12 @@ body {
   margin: 0 0 0 0;
 
 }
+
+h1 {
+    font-size: 2em;
+    color: #2A5298;
+    text-align: center;
+    margin: auto;
+    max-width: 650px;
+
+}
