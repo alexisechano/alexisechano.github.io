@@ -101,6 +101,7 @@ ul.nav-bar li.right {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 10px;
 }
 
 .sidebar h1{
@@ -108,6 +109,7 @@ ul.nav-bar li.right {
     color: white;
     text-align: center;
     margin: auto;
+    padding: 10px;
   
 }
 
