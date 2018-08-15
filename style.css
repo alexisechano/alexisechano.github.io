@@ -95,7 +95,7 @@ ul.nav-bar li.right {
     .sidebar {padding-top: 15px;}
 }
 
-.sidebar img{
+/**.sidebar img{
     border-radius: 50%;
     display: block;
     width: 50%;
@@ -110,7 +110,7 @@ ul.nav-bar li.right {
     margin: auto;
     padding: 10px;
   
-}
+}**/
 
 .about {
     background-color: gray;
