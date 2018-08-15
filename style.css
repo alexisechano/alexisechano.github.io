@@ -18,14 +18,13 @@ h1 {
     color: #B7C3DB;
     text-align: left;
     margin: auto;
-    max-width: 650px;
 
 }
 
 h2 {
     font-size: 75px;
     text-align: left;
-    margin: 20px;
+    margin: auto;
 }
 
 .wrapper.style1 h1{
