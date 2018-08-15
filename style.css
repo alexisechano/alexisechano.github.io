@@ -25,11 +25,7 @@ h1 {
 h2 {
     font-size: 75px;
     text-align: left;
-}
-
-.introductionArea{
-    height: 730px;
-    background-color: #eaeaea;
+    margin: 20px;
 }
 
 .wrapper.style1 h1{
