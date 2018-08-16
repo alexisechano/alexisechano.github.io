@@ -23,12 +23,21 @@ h2 {
 
 .intro-style {
     position: relative;
-    width: 75%;
+    width: 100%;
     height: 100%;
 }
 
 .intro-image img {
     opacity: 0.7;
+    width: 75%;
+    float: left;
+}
+.sidebar {
+    float: right;
+    width: 25%;
+    height: 100%;
+    background-color: #B7C3DB;
+    
 }
 
 .bottomleft {
@@ -77,14 +86,6 @@ ul.nav-bar li.right {
     ul.nav-bar li {
         float: none;
     }
-}
-
-.sidebar {
-    float: right;
-    width: 25%;
-    height: 100%;
-    background-color: #B7C3DB;
-    
 }
 
 .about {
