@@ -23,6 +23,7 @@ h2 {
 
 .intro-image {
     position: relative;
+    right: 0;
 }
 
 .intro-image img {
@@ -34,9 +35,9 @@ h2 {
 .bottomleft {
     position: absolute;
     bottom: 8px;
-    left: 16px;
+    right: 16px;
     font-size: 50px;
-    font-color: white;
+    color: #B7C3DB;
     font-family: 'Playfair Display', serif;
 }
 
@@ -61,7 +62,7 @@ ul.nav-bar li a {
 }
 
 ul.nav-bar li a:hover:not(.active) {
-    background-color: #111;
+    background-color: gray;
 }
 
 ul.nav-bar li a.active {
