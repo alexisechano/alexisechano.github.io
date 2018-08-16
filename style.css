@@ -65,13 +65,19 @@ ul.nav-bar li.right {
     background-color: #f7f7f7;
     padding: 30px;
 }
+.about img{
+    float: left;
+    border-radius: 50%;
+}
 
 .about p{
     color: white;
     font-size: 20px;
+    float: right;
 }
 
 .about h1{
+    float: right;
     color: white;
     font-size: 50px;
     text-align: left;
