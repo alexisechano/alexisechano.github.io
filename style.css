@@ -23,7 +23,6 @@ h2 {
 
 .intro-image {
     position: relative;
-    float: left;
 }
 
 .intro-image img {
@@ -80,12 +79,6 @@ ul.nav-bar li.right {
     }
 }
 
-.sidebar {
-    width: 25%;
-    height: 100%;
-    /*float: left;*/
-    position: absolute;
-}
 .about {
     background-color: gray;
     padding: 20px;
