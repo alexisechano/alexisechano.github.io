@@ -97,3 +97,29 @@ ul.nav-bar li.right {
     margin: auto;
 }
 
+
+ul.project-list {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #B7C3DB;
+}
+
+ul.project-list li {
+    float: left;
+}
+
+ul.project-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+ul.project-list li a:hover:not(.active) {
+    background-color: gray;
+}
+
+ul.project-list li a.active {
+    background-color: white;
+}
+
