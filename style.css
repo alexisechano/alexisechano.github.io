@@ -79,6 +79,14 @@ ul.nav-bar li.right {
     }
 }
 
+.sidebar {
+    float: right;
+    width: 25%;
+    height: 100%;
+    background-color: #B7C3DB;
+    
+}
+
 .about {
     background-color: gray;
     padding: 20px;
