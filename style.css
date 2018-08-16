@@ -23,7 +23,6 @@ h2 {
 
 .intro-image {
     position: relative;
-    right: 0;
 }
 
 .intro-image img {
@@ -35,7 +34,7 @@ h2 {
 .bottomleft {
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    left: 16px;
     font-size: 50px;
     color: #B7C3DB;
     font-family: 'Playfair Display', serif;
