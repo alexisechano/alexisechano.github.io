@@ -82,7 +82,9 @@ ul.nav-bar li.right {
 
 .sidebar {
     width: 25%;
-    float: left;
+    height: 100%;
+    /*float: left;*/
+    position: absolute;
 }
 .about {
     background-color: gray;
