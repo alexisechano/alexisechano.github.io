@@ -97,6 +97,17 @@ ul.nav-bar li.right {
     margin: auto;
 }
 
+.projects {
+    margin: 0;
+    padding: 80px;
+    
+}
+.projects h1{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin: auto;
+}
 
 ul.project-list {
     list-style-type: none;
