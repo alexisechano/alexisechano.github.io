@@ -63,12 +63,14 @@ ul.nav-bar li.right {
 
 .about-container {
     background-color: #f7f7f7;
-    padding: 30px;
+    padding: 60px;
+    margin: auto;
     overflow: hidden;
 }
 
 .about-image {
     float: left;
+    padding: 40px;
     
 }
 .about-image img {
@@ -76,7 +78,7 @@ ul.nav-bar li.right {
     display: block;
 }
 .about-text {
-    margin-left: 210px;
+    margin-left: 300px;
 }
 
 .about-text p{
