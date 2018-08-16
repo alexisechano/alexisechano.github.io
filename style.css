@@ -68,14 +68,13 @@ ul.nav-bar li.right {
 }
 
 .about-image img {
-    display: block
     border-radius: 50%;
     clear:left;
     width:50px;
     height:50px;
 }
 .about-text {
-    margin-left: 210px
+    margin-left: 210px;
     float: left;
 }
 
