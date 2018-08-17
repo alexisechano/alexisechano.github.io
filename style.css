@@ -86,9 +86,11 @@ ul.nav-bar li.right {
       width: 40%;
       align-items: center;
       justify-content: center;
+      float: right;
 }
 .intro-image {
       width: 60%;
+      float: left;
 }
 
 .intro-image img{
