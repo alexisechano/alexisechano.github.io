@@ -80,6 +80,7 @@ ul.nav-bar li.right {
       background-color: #f7f7f7;
       padding: 80px;
       height: 100vh;
+      align-items: center;
 }
 .introduction img {
       border-radius: 50%;
