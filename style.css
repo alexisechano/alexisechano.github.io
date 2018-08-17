@@ -85,17 +85,15 @@ ul.nav-bar li.right {
       /**height: 100vh;**/
       align-items: center;
       justify-content: center;
-      margin-left: 60%
+      float: left;
+      margin-left:0;
 }
 .intro-image {
-      width: 60%;
-      float: left;
+      margin-left: 200px;
 }
 
 .intro-image img{
       display: block;
-      width: auto;
-      margin-left: 0;
 }
 .introduction img {
       border-radius: 50%;
