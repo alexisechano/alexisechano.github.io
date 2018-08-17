@@ -75,26 +75,11 @@ ul.nav-bar li.right {
       margin-right: auto;
       width: auto;
 }
-/**
-.about-container {
-    background-color: #f7f7f7;
-    width: 100%;
-    height: auto;
-    padding: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    overflow: hidden;
-}
 
-.about-image {
-    float: left;
-    padding: 40px;
-    
+.about-container {
+    background-color: gray;
 }
-.about-image img {
-    border-radius: 50%;
-    display: block;
-}
+/**
 .about-text {
     padding-top: 40px;
     margin-top: 50px;
