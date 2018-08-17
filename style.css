@@ -4,7 +4,6 @@
 body {
       background: #f7f7f7;
       margin: 0 0 0 0;
-
 }
 
 h1 {
@@ -41,6 +40,7 @@ ul.nav-bar li {
 ul.nav-bar li a {
     display: block;
     color: white;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding: 20px 16px 20px 16px;
     text-decoration: none;
