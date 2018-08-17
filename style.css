@@ -90,6 +90,12 @@ ul.nav-bar li.right {
 .intro-image {
       width: 60%;
 }
+
+.intro-image img{
+      display: block;
+      width: auto;
+      margin-left: 0;
+}
 .introduction img {
       border-radius: 50%;
       display: block;
