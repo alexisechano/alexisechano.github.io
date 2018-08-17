@@ -85,16 +85,20 @@ ul.nav-bar li.right {
       /**height: 100vh;**/
       align-items: center;
       justify-content: center;
-      float: left;
-      margin-left:0;
+      margin-left: 50%;
 }
 .intro-image {
       margin-left: 200px;
 }
 
-.intro-image img{
-      display: block;
+.intro-image {
+      float: left;
+      width: 50%;
 }
+.intro-image img {
+      width:100%;
+}
+
 .introduction img {
       border-radius: 50%;
       display: block;
