@@ -64,7 +64,10 @@ ul.nav-bar li.right {
         float: none;
     }
 }
-
+.introduction {
+      margin-top: 10px;
+      padding: 80px;
+}
 .introduction img {
       border-radius: 50%;
       display: block;
