@@ -15,6 +15,15 @@ h1 {
 
 }
 
+h2,h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: auto;
+
+}
+
 p {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -66,8 +75,8 @@ ul.nav-bar li.right {
 }
 
 .introduction {
-      padding: 80px;
       background-color: #f7f7f7;
+      padding: 80px;
 }
 .introduction img {
       border-radius: 50%;
@@ -79,5 +88,11 @@ ul.nav-bar li.right {
 
 .about-container {
     background-color: gray;
+          padding: 80px;
+}
+
+.project-container {
+    background-color: #f7f7f7;
     padding: 80px;
 }
+
