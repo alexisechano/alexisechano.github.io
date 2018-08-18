@@ -36,14 +36,17 @@ p {
 }
 
 
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 ul.nav-bar {
     list-style-type: none;
     margin: 0;
     padding-left: 80px;
     overflow: hidden;
     background-color: #B7C3DB;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
 }
 
 ul.nav-bar li {
@@ -105,6 +108,9 @@ ul.nav-bar li.right {
       margin-left: auto;
       margin-right: auto;
       width: auto;
+      position: absolute;
+      z-index: -1;
+}
 }
 
 .about-container {
