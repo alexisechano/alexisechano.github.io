@@ -7,75 +7,68 @@ body {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    color: #B7C3DB;
-    text-align: center;
-    margin: auto;
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      color: #B7C3DB;
+      text-align: center;
+      margin: auto;
 
 }
 
 h2,h3,a {
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    color: gray;
-    text-align: center;
-    margin: auto;
-    text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 30px;
+      color: gray;
+      text-align: center;
+      margin: auto;
+      text-decoration: none;
 
 }
 
 
 p {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin: auto;
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      margin: auto;
     
 }
 
 ul.nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 80px;
-    overflow: hidden;
-    background-color: #B7C3DB;
+      list-style-type: none;
+      margin: 0;
+      padding-left: 80px;
+      overflow: hidden;
+      background-color: #B7C3DB;
 }
 
 ul.nav-bar li {
-    float: left;
+      float: left;
 }
 
 ul.nav-bar li a {
-    display: block;
-    color: white;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding: 20px 16px 20px 16px;
-    text-decoration: none;
+      display: block;
+      color: white;
+      font-size: 20px;
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      padding: 20px 16px 20px 16px;
+      text-decoration: none;
 }
 
 ul.nav-bar li a:hover:not(.active) {
-    background-color: gray;
+      background-color: gray;
 }
 
 ul.nav-bar li a.active {
-    background-color: #B7C3DB;
-    position: -webkit-sticky;
-    position: sticky;
+      background-color: #B7C3DB;
+      position: -webkit-sticky;
+      position: sticky;
 }
 
 ul.nav-bar li.right {
-    float: right;
-}
-
-@media screen and (max-width: 600px){
-    ul.nav-bar li.right, 
-    ul.nav-bar li {
-        float: none;
-    }
+      float: right;
 }
 
 .introduction {
@@ -96,37 +89,40 @@ ul.nav-bar li.right {
 }
 
 .introduction:before {
-    filter: blur(1px);
+      filter: blur(1px);
+      opacity: 0.7;
 }
 
 .introduction h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin: auto;
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      margin: auto;
 }
 
 .introduction img {
       positon: relative;
       text-align: center;
       border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
       display: block;
       width: auto;
 }
 
 .about-container {
-    background-color: gray;
-          padding: 80px;
+      background-color: gray;
+      padding: 80px;
 }
 
 .project-container {
-    background-color: #f7f7f7;
-    padding: 80px;
+      background-color: #f7f7f7;
+      padding: 80px;
 }
 
 
 .project-container h2:hover {
-    text-decoration: underline;
+      text-decoration: underline;
 }
 
