@@ -90,7 +90,7 @@ ul.nav-bar li.right {
       padding: 80px;
       height: 80vh;
       
-      display: flex;
+      /*display: flex;*/
       align-items: center;
       justify-content: center;
 }
@@ -112,8 +112,6 @@ ul.nav-bar li.right {
       text-align: center;
       border-radius: 50%;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
       width: auto;
 }
 
