@@ -100,6 +100,7 @@ ul.nav-bar li.right {
 
 .introduction img {
       positon: relative;
+      text-align: center;
       border-radius: 50%;
       display: block;
       margin-left: auto;
