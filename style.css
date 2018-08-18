@@ -89,6 +89,10 @@ ul.nav-bar li.right {
       
       padding: 80px;
       height: 80vh;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 
 .introduction:before {
@@ -97,8 +101,6 @@ ul.nav-bar li.right {
 
 .introduction h1{
     font-family: 'Oswald', sans-serif;
-    left: 50%;
-    top: 50%;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -107,8 +109,6 @@ ul.nav-bar li.right {
 
 .introduction img {
       positon: relative;
-      left: 50%;
-      top: 50%;
       text-align: center;
       border-radius: 50%;
       display: block;
