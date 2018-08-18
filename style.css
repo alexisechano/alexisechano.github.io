@@ -98,7 +98,7 @@ ul.nav-bar li.right {
     margin: auto;
 }
 
-.intro-image {
+.first-wrapper {
       background-image: url('images/bridge.jpg');
       float: left;
       width: 75%;
