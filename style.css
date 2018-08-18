@@ -75,7 +75,7 @@ ul.nav-bar li.right {
       margin: 0;
       position: relative;
       
-      background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Free-Download-cherry-blossom-wallpaper-white-768x432.jpg');
+      background-image: url('images/dome1.jpg');
       background-repeat:no-repeat;
       background-attachment: fixed;
       background-position: center;
@@ -102,8 +102,8 @@ ul.nav-bar li.right {
 }
 
 .introduction h1{
-      font-family: 'Oswald', sans-serif;
-      font-size: 50px;
+      font-family: 'Lato', sans-serif;
+      font-size: 60px;
       color: #B7C3DB;
       text-align: center;
       margin: auto;
