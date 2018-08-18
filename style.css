@@ -85,15 +85,14 @@ ul.nav-bar li.right {
       background-attachment: fixed;
       background-position: center;
       padding: 80px;
-      /**height: 100vh;**/
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      height: 80vh;
 }
 
 .introduction h1{
     font-family: 'Oswald', sans-serif;
-     top: 50%;
+    top: 50vh;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -102,7 +101,7 @@ ul.nav-bar li.right {
 
 .introduction img {
       positon: relative;
-      top: 50%;
+      top: 50vh;
       text-align: center;
       border-radius: 50%;
       display: block;
