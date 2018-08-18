@@ -82,6 +82,11 @@ ul.nav-bar li.right {
     }
 }
 
+.first-wrapper {
+      max-height: 500px;
+      width: 100%;
+      
+}
 .introduction {
       background-color: #f7f7f7;
       padding: 80px;
