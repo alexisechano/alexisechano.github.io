@@ -126,6 +126,7 @@ ul.nav-bar li.right {
 }
 
 .about-text {
+      position: absolute;
       text-align: center;
       top: 50%;
       left: 50%;
@@ -133,10 +134,11 @@ ul.nav-bar li.right {
 }
 
 .project-text {
+      position: absolute;
       text-align: center;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%); 
+      transform: translate(-50%, -50%);
 }
 
 .project-container {
