@@ -71,7 +71,7 @@ ul.nav-bar li.right {
       float: right;
 }
 
-.introduction {
+.first-wrapper {
       positon: relative;
       
       background-image: url('images/cherry.jpeg');
@@ -79,24 +79,28 @@ ul.nav-bar li.right {
       background-attachment: fixed;
       background-position: center;
       background-size: cover;
-      
-      padding: 80px;
+      filter: blur(1px);
+      opacity: 0.7;
       height: 80vh;
       
       /*display: flex;*/
+      
+}
+.introduction {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 80px;
       top: 50%;
       left: 50%;
-}
-
-.introduction:before {
-      filter: blur(1px);
-      opacity: 0.7;
+      text-align: center;
+      margin: auto;
+      margin-top: 5%;
+      
 }
 
 .introduction h1{
       font-family: 'Oswald', sans-serif;
       font-size: 50px;
-      color: white;
+      color: #B7C3DB;
       text-align: center;
       margin: auto;
 }
