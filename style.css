@@ -80,10 +80,13 @@ ul.nav-bar li.right {
 
 .introduction {
       positon: relative;
+      
       background-image: url('images/dome1.jpg');
       background-repeat:no-repeat;
       background-attachment: fixed;
       background-position: center;
+      background-size: cover;
+      
       padding: 80px;
       align-items: center;
       justify-content: center;
