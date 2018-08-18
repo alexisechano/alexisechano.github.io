@@ -121,20 +121,12 @@ ul.nav-bar li.right {
 
 .about-container {
       height: 100vh;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       background-color: gray;
       padding: 80px;
 }
 
 .project-container {
       height: 100vh;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       background-color: #f7f7f7;
       padding: 80px;
 }
