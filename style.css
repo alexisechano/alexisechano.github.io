@@ -35,13 +35,9 @@ p {
     
 }
 
-
-.navbar {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 ul.nav-bar {
+        position: -webkit-sticky;
+  position: sticky;
     list-style-type: none;
     margin: 0;
     padding-left: 80px;
