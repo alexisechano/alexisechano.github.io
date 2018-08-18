@@ -71,29 +71,31 @@ ul.nav-bar li.right {
       float: right;
 }
 
-.first-wrapper {
-      positon: relative;
+.background {
+      margin: 0;
+      position: relative;
       
-      background-image: url('images/cherry.jpeg');
+      background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Free-Download-cherry-blossom-wallpaper-white-768x432.jpg');
       background-repeat:no-repeat;
       background-attachment: fixed;
       background-position: center;
       background-size: cover;
-      filter: blur(1px);
-      opacity: 0.7;
+      opacity:0.7;
       height: 80vh;
+      z-index: -1;
       
       /*display: flex;*/
-      
 }
+
+
 .introduction {
+      position: absolute;
       background: rgba(0, 0, 0, 0.4);
       padding: 80px;
+      text-align: center;
       top: 50%;
       left: 50%;
-      text-align: center;
-      margin: auto;
-      margin-top: 5%;
+      transform: translate(-50%, -50%);
       
 }
 
@@ -106,7 +108,7 @@ ul.nav-bar li.right {
 }
 
 .introduction img {
-      positon: relative;
+      position: relative;
       text-align: center;
       border-radius: 50%;
       margin-left: auto;
@@ -129,4 +131,5 @@ ul.nav-bar li.right {
 .project-container h2:hover {
       text-decoration: underline;
 }
+
 
