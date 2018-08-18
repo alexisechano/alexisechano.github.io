@@ -36,8 +36,6 @@ p {
 }
 
 ul.nav-bar {
-    position: -webkit-sticky;
-    position: sticky;
     list-style-type: none;
     margin: 0;
     padding-left: 80px;
@@ -65,6 +63,8 @@ ul.nav-bar li a:hover:not(.active) {
 
 ul.nav-bar li a.active {
     background-color: #B7C3DB;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 ul.nav-bar li.right {
@@ -85,7 +85,7 @@ ul.nav-bar li.right {
       /**height: 100vh;**/
       align-items: center;
       justify-content: center;
-      margin-left: 70%;
+      margin-left: 75%;
       max-height: 100%;
       height: auto;
 }
@@ -99,11 +99,12 @@ ul.nav-bar li.right {
 }
 
 .intro-image {
-      float: left;
-      width: 70%;
-      max-height: 100%;
-      z-index: -1;
       background-image: url('images/bridge.jpg');
+      float: left;
+      width: 75%;
+      max-height: 100%;
+      /*z-index: -1;*/
+      
 }
 
 .introduction img {
