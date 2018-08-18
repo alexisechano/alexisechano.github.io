@@ -86,12 +86,15 @@ ul.nav-bar li.right {
       background-attachment: fixed;
       background-position: center;
       background-size: cover;
-      filter: blur(1px);
       
       padding: 80px;
       align-items: center;
       justify-content: center;
       height: 80vh;
+}
+
+.introduction:before {
+    filter: blur(1px);
 }
 
 .introduction h1{
