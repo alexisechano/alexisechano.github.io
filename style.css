@@ -79,6 +79,7 @@ ul.nav-bar li.right {
 }
 
 .introduction {
+      positon: relative;
       background-color: #f7f7f7;
       padding: 80px;
       /**height: 100vh;**/
@@ -98,6 +99,7 @@ ul.nav-bar li.right {
 }
 
 .introduction img {
+      positon: relative;
       border-radius: 50%;
       display: block;
       margin-left: auto;
