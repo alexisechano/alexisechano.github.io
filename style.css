@@ -36,8 +36,8 @@ p {
 }
 
 ul.nav-bar {
-        position: -webkit-sticky;
-  position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
     list-style-type: none;
     margin: 0;
     padding-left: 80px;
@@ -78,11 +78,6 @@ ul.nav-bar li.right {
     }
 }
 
-.first-wrapper {
-      height: auto;
-      width: 100%;
-      
-}
 .introduction {
       background-color: #f7f7f7;
       padding: 80px;
