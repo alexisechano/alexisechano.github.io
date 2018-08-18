@@ -95,11 +95,13 @@ ul.nav-bar li.right {
 .intro-image {
       float: left;
       width: 70%;
-      height: auto;
+      max-height: 100%;
 }
 .intro-image img{
-     max-height: 100%;
+    max-height: 100%;
     max-width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .introduction img {
@@ -108,9 +110,6 @@ ul.nav-bar li.right {
       margin-left: auto;
       margin-right: auto;
       width: auto;
-      position: absolute;
-      z-index: -1;
-}
 }
 
 .about-container {
