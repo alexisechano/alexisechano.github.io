@@ -80,7 +80,7 @@ ul.nav-bar li.right {
 
 .introduction {
       positon: relative;
-      background-color: #f7f7f7;
+      background-color: #B7C3DB;
       padding: 80px;
       /**height: 100vh;**/
       align-items: center;
@@ -88,6 +88,14 @@ ul.nav-bar li.right {
       margin-left: 70%;
       max-height: 100%;
       height: auto;
+}
+
+.introduction h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: auto;
 }
 
 .intro-image {
