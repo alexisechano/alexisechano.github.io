@@ -128,17 +128,13 @@ ul.nav-bar li.right {
 .about-text {
       position: absolute;
       text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); 
+      vertical-align: center;
 }
 
 .project-text {
       position: absolute;
       text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      vertical-align: center;
 }
 
 .project-container {
