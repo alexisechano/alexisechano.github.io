@@ -92,6 +92,7 @@ ul.nav-bar li.right {
 
 .introduction h1{
     font-family: 'Oswald', sans-serif;
+     top: 50%;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -100,6 +101,7 @@ ul.nav-bar li.right {
 
 .introduction img {
       positon: relative;
+      top: 50%;
       text-align: center;
       border-radius: 50%;
       display: block;
