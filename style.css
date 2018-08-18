@@ -98,12 +98,8 @@ ul.nav-bar li.right {
       float: left;
       width: 70%;
       max-height: 100%;
-}
-.intro-image img{
-    max-height: 100%;
-    max-width: 100%;
-    position: absolute;
-    z-index: -1;
+      z-index: -1;
+      background-image: url('images/bridge.jpg');
 }
 
 .introduction img {
