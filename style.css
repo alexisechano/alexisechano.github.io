@@ -83,7 +83,7 @@ ul.nav-bar li.right {
 }
 
 .first-wrapper {
-      max-height: 500px;
+      height: auto;
       width: 100%;
       
 }
@@ -95,6 +95,7 @@ ul.nav-bar li.right {
       justify-content: center;
       margin-left: 70%;
       max-height: 100%;
+      height: auto;
 }
 
 .intro-image {
