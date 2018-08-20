@@ -47,6 +47,11 @@ p {
       max-width: 650px;
 }
 
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
 ul.nav-bar {
       z-index: 2;
       list-style-type: none;
@@ -54,8 +59,6 @@ ul.nav-bar {
       padding-left: 80px;
       overflow: hidden;
       background-color: #B7C3DB;
-      position: -webkit-sticky;
-      position: sticky;
 }
 
 ul.nav-bar li {
