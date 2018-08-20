@@ -56,8 +56,8 @@ ul.nav-bar {
       list-style-type: none;
       margin: 0;
       padding-left: 80px;
-      /* overflow: hidden; */
-      background-color: #B7C3DB;
+      overflow: auto;
+      background-color:rgba(0,0,0,0.4);
 }
 
 ul.nav-bar li {
@@ -80,12 +80,9 @@ ul.nav-bar li a:hover:not(.active) {
 }
 
 ul.nav-bar li a.active {
-      background-color: #B7C3DB;
+      background-color: gray;
 }
 
-.active {
-    background-color: gray;
-}
 
 ul.nav-bar li.right {
       float: right;
