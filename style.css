@@ -134,16 +134,16 @@ ul.nav-bar li.right {
       position: absolute;
       text-align: center;
       vertical-align: center;
-      left: 50%;
-      top: 50%;
+      padding-left: 50%;
+      padding-top: 50%;
 }
 
 .project-text {
       position: absolute;
       text-align: center;
       vertical-align: center;
-      left: 50%;
-      top: 50%;
+      padding-left: 50%;
+      padding-top: 50%;
 }
 
 .project-text p{
