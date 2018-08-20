@@ -49,7 +49,6 @@ p {
 }
 
 ul.nav-bar {
-      z-index: 2;
       list-style-type: none;
       margin: 0;
       padding-left: 80px;
@@ -101,13 +100,11 @@ ul.nav-bar li.right {
       opacity: 0.7;
       filter: blur(2px);
       height: 100vh;
-      z-index: -1;
 }
 
 
 .introduction {
       height: auto;
-      z-index: 1;
       position: absolute;
       text-align: center;
       top: 50%;
