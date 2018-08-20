@@ -49,11 +49,13 @@ p {
 }
 
 ul.nav-bar {
+      z-index: 2;
       list-style-type: none;
       margin: 0;
       padding-left: 80px;
       overflow: hidden;
       background-color: #B7C3DB;
+      position:relative;
 }
 
 ul.nav-bar li {
