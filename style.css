@@ -12,6 +12,8 @@ h1 {
       color: #B7C3DB;
       text-align: center;
       margin: auto;
+      padding-top: 25px;
+      padding-bottom: 25px;
 
 }
 
@@ -115,10 +117,10 @@ ul.nav-bar li.right {
 }
 
 .introduction img {
+      border-radius: 50%;
       padding-top: 25%;
       position: relative;
       text-align: center;
-      border-radius: 50%;
       margin-left: auto;
       margin-right: auto;
       display: block;
