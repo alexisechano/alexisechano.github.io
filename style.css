@@ -134,27 +134,14 @@ ul.nav-bar li.right {
       background-color: gray;
 }
 
-/**.about-text {
-      position: relative;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      
-} **/
-
 .container.about p{
       padding-top: 30px;
       padding-bottom: 25px;
 }
 
-/**.project-text {
-      position: relative;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-}**/
+.container.project {
+      background-color: #f7f7f7;
+}
 
 .container.project p{
       color: #B7C3DB;
@@ -164,10 +151,6 @@ ul.nav-bar li.right {
 
 .container.project h2{
       padding-top: 25px;
-}
-
-.container.project {
-      background-color: #f7f7f7;
 }
 
 .container.project h2:hover {
