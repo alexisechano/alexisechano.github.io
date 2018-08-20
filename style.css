@@ -12,6 +12,7 @@ h1 {
       color: #B7C3DB;
       text-align: center;
       margin: auto;
+      max-width: 650px;
 
 }
 
@@ -22,6 +23,7 @@ h2,h3,a {
       text-align: center;
       margin: auto;
       text-decoration: none;
+      max-width: 650px;
 
 }
 
@@ -32,6 +34,7 @@ p {
       color: white;
       text-align: center;
       margin: auto;
+      max-width: 650px;
     
 }
 
@@ -124,7 +127,8 @@ ul.nav-bar li.right {
 .about-container {
       height: 100vh;
       background-color: gray;
-      padding: 80px;
+      padding-top: 80px;
+      padding-bottom: 80px;
 }
 
 .about-text {
@@ -144,7 +148,8 @@ ul.nav-bar li.right {
 .project-container {
       height: 100vh;
       background-color: #f7f7f7;
-      padding: 80px;
+      padding-top: 80px;
+      padding-bottom: 80px;
 }
 
 
