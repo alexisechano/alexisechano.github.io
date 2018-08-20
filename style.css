@@ -126,10 +126,11 @@ ul.nav-bar li.right {
 }
 
 .about-container {
-      height: 75vh;
+      height: auto;
       background-color: gray;
       padding-top: 80px;
       padding-bottom: 80px;
+      max-height: 75vh;
 }
 
 .about-text {
@@ -165,10 +166,11 @@ ul.nav-bar li.right {
 }
 
 .project-container {
-      height: 75vh;
+      height: auto;
       background-color: #f7f7f7;
       padding-top: 80px;
       padding-bottom: 80px;
+      max-height: 75vh;
 }
 
 .project-container h2:hover {
