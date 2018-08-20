@@ -123,57 +123,54 @@ ul.nav-bar li.right {
       width: auto;
 }
 
-.about-container {
-      position: relative;
-      height: 50vh;
+/** Rest of the webpage **/
+
+.container {
+    padding: 6em 2em 4em;
+    height: auto;
+    text-align: center;
+}
+.container.about {
       background-color: gray;
-      padding-top: 80px;
-      padding-bottom: 80px;
 }
 
-.about-text {
-      padding-top: 50%;
+/**.about-text {
       position: relative;
       text-align: center;
-      
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       
-}
+} **/
 
-.about-text p{
+.container.about p{
       padding-top: 30px;
       padding-bottom: 25px;
 }
 
-.project-text {
-      padding-top: 50%;
+/**.project-text {
       position: relative;
       text-align: center;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-}
+}**/
 
-.project-text p{
+.container.project p{
       color: #B7C3DB;
       padding-top: 30px;
       padding-bottom: 25px;
 }
 
-.project-text h2{
+.container.project h2{
       padding-top: 25px;
 }
 
-.project-container {
-      position: relative;
-      height: 50vh;
+.container.project {
       background-color: #f7f7f7;
-      padding-top: 80px;
-      padding-bottom: 80px;
 }
 
-.project-container h2:hover {
+.container.project h2:hover {
       text-decoration: underline;
 }
+
