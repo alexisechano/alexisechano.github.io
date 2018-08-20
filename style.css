@@ -102,6 +102,7 @@ ul.nav-bar li.right {
       transform: translate(-50%, -50%);
       width: 100%;
       height: auto;
+      padding-top: 30px;
       
 }
 
@@ -116,7 +117,6 @@ ul.nav-bar li.right {
 
 .introduction img {
       border-radius: 50%;
-      padding-top: 25%;
       position: relative;
       text-align: center;
       margin-left: auto;
@@ -144,11 +144,9 @@ ul.nav-bar li.right {
 }
 
 .about-text p{
-      padding-top: 25px;
+      padding-top: 30px;
       padding-bottom: 25px;
 }
-
-
 
 .project-text {
       position: relative;
@@ -161,7 +159,7 @@ ul.nav-bar li.right {
 
 .project-text p{
       color: #B7C3DB;
-      padding-top: 25px;
+      padding-top: 30px;
       padding-bottom: 25px;
 }
 
