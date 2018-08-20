@@ -171,5 +171,6 @@ ul.nav-bar li.right {
 }
 
 .container.footer {
+      padding: 2em 2em 2em;
       background-color: gray;
 }
