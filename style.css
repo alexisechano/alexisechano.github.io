@@ -146,6 +146,8 @@ ul.nav-bar li.right {
 
 .project-text p{
       color: #B7C3DB;
+      padding-top: 25px;
+      padding-bottom: 25px;
 }
 
 .project-container {
