@@ -15,13 +15,12 @@ h1 {
 }
 
 h2,a {
+      text-align: center;
+      margin: auto;
       font-family: 'Lato', sans-serif;
       font-size: 25px;
       color: gray;
       text-decoration: none;
-      
-      text-align: center;
-      margin: auto;
 }
 
 h3 {
@@ -49,12 +48,14 @@ p {
 }
 
 ul.nav-bar {
+      z-index: 2;
       list-style-type: none;
       margin: 0;
       padding-left: 80px;
       overflow: hidden;
       background-color: #B7C3DB;
-      position:relative;
+      position: -webkit-sticky;
+      position: sticky;
 }
 
 ul.nav-bar li {
@@ -64,8 +65,10 @@ ul.nav-bar li {
 ul.nav-bar li a {
       display: block;
       color: white;
+      font-size: 20px;
+      font-family: 'Lato', sans-serif;
       text-align: center;
-      padding: 14px 16px;
+      padding: 20px 16px 20px 16px;
       text-decoration: none;
       
 }
@@ -100,11 +103,13 @@ ul.nav-bar li.right {
       opacity: 0.7;
       filter: blur(2px);
       height: 100vh;
+      z-index: -1;
 }
 
 
 .introduction {
       height: auto;
+      z-index: 1;
       position: absolute;
       text-align: center;
       top: 50%;
@@ -119,7 +124,6 @@ ul.nav-bar li.right {
       font-family: 'Lato', sans-serif;
       font-size: 60px;
       color: white;
-      
       text-align: center;
       margin: auto;
 }
