@@ -47,18 +47,16 @@ p {
       max-width: 650px;
 }
 
-ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
 
 ul.nav-bar {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
       z-index: 2;
       list-style-type: none;
       margin: 0;
       padding-left: 80px;
-      overflow: hidden;
+      /* overflow: hidden; */
       background-color: #B7C3DB;
 }
 
