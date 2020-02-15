@@ -1,0 +1,45 @@
+    
+    <!-- Test with new layout -->
+    <div class="first-wrapper">
+    <section class="background"> </section>
+    <div class="introduction">
+        <img src="images/me2.JPG" alt="Alexis Echano" width="200" height="200">
+        <h1> — HELLO, I'M ALEXIS ECHANO — </h1>
+    </div>
+    </div>
+    <!-- This is for the image stuffs -->
+
+    
+    <!-- This is the about me -->
+    <a id="about-me">
+    <div class="container about">
+      <div class="about-text">
+        <h1> about me.</h1>
+        <p>Alexis is a rising senior at Thomas Jefferson High School for Science and Technology and is a self-described "avid writer and tech nerd". She's worked with the Children's Science Center and serves on the Minority Student Achievement Oversight Committee for Fairfax County Public Schools. In school, she's gained experience in machine learning/artificial intelligence and research. 
+          Alexis also won the HackTJ's Best Web App for MyDailyTrends and was a district champion for vault in high school gymnastics.</p>
+    </div>
+    </div>
+    </a>
+    
+    <!--  This is the projects section -->
+    <a id="project-s">
+    <div class="container project">
+        <h1> projects. </h1>
+          <h2><a href="https://devpost.com/software/my-daily-trend">My Daily Trends</a></h2>
+          <p>An award-winning iOS app created during HackTJ 2017 to keep users updated daily with their personalized topics or areas of interests.</p>
+          <h2><a href="https://devpost.com/software/connexchain">ConneXChain</a></h2>
+          <p>An iOS app created during HackTJ 2018 that optimize the patenting process through a blockchain.</p>
+          <h2><a href="https://github.com/alexisechano/cryptocurrency-model">AI Cryptocurrency Modeler</a></h2>
+          <p>Using Machine Learning, the program creates a neural network model according to current cryptocurrency stock prices.
+      Built during the Carnegie Mellon University AI/Machine Learning Summer Program. </p>
+      </div>
+    </a> 
+    
+    <!--  This is the footer, to close everything off -->
+    <div class="container footer">
+          <h3> © Alexis Echano </h3>
+          <h3> Programmed in HTML and CSS by Alexis Echano</h3>
+    </div>
+    
+  </body>
+</html>
