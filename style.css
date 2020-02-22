@@ -1,183 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
 
 body {
-      margin: 0 0 0 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
 }
+/* Navbar section */
 
-h1 {
-      font-family: 'Oswald', sans-serif;
-      font-size: 50px;
-      color: #B7C3DB;
-      
-      text-align: center;
-      margin: auto;
-}
-
-h2,a {
-      text-align: center;
-      margin: auto;
-      font-family: 'Lato', sans-serif;
-      font-size: 25px;
-      color: gray;
-      text-decoration: none;
-}
-
-h3 {
-      font-family: 'Lato', sans-serif;
-      font-size: 20px;
-      color: white;
-      text-decoration: none;
-      
-      text-align: center;
-      margin: auto;
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
-      max-width: 650px;
-}
-
-
-p {
-      font-family: 'Lato', sans-serif;
-      font-size: 20px;
-      color: white;
-      
-      text-align: center;
-      margin: auto;
-      max-width: 650px;
-}
-
-
-ul.nav-bar {
-      position: -webkit-fixed; /* Safari */
-      position: fixed;
-      width: 100%;
-      top: 0;
-      z-index: 2;
-      list-style-type: none;
-      margin: 0;
-      padding-left: 80px;
-      overflow: auto;
-      background-color:rgba(0,0,0,0.4);
-}
-
-ul.nav-bar li {
-      float: left;
-}
-
-ul.nav-bar li a {
-      display: block;
-      color: white;
-      font-size: 20px;
-      font-family: 'Lato', sans-serif;
-      text-align: center;
-      padding: 20px 16px 20px 16px;
-      text-decoration: none;
-      
-}
-
-ul.nav-bar li a:hover:not(.active) {
-      background-color: #B7C3DB;
-}
-
-ul.nav-bar li a.active {
-      background-color: gray;
-}
-
-
-ul.nav-bar li.right {
-      float: right;
-}
-
-@media screen and (max-width: 600px){
-    ul.nav-bar li.right, 
-    ul.nav-bar li {float: none;}
-}
-
-.background {
-      margin: 0;
-      position: relative;
-      
-      background-image: url('images/dome1.jpg');
-      background-repeat:no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-      background-size: cover;
-      
-      opacity: 0.7;
-      filter: blur(2px);
-      height: 100vh;
-      z-index: -1;
-}
-
-
-.introduction {
-      height: auto;
-      z-index: 1;
-      position: absolute;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      padding-top: 25%;
-      padding-bottom: 25%;
-}
-
-.introduction h1{
-      font-family: 'Lato', sans-serif;
-      font-size: 60px;
-      color: white;
-      text-align: center;
-      margin: auto;
-}
-
-.introduction img {
-      border-radius: 50%;
-      position: relative;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      width: auto;
-}
-
-/** Rest of the webpage **/
-
-.container {
-    padding: 3em 2em 4em;
-    height: auto;
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
     text-align: center;
 }
 
-.container.about {
-      background-color: gray;
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
 }
 
-.container.about p{
-      padding-top: 30px;
-      padding-bottom: 25px;
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
 }
 
-.container.project {
-      background-color: #f7f7f7;
+.nav div.logo a:hover {
+    color: #00E676;
 }
 
-.container.project p{
-      color: #B7C3DB;
-      padding-top: 30px;
-      padding-bottom: 25px;
+.nav div.main_list {
+    height: 65px;
+    float: right;
 }
 
-.container.project h2{
-      padding-top: 25px;
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.container.project h2:hover {
-      text-decoration: underline;
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
 }
 
-.container.footer {
-      padding: 2em 2em 2em;
-      background-color: gray;
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-position: center top;
+	background-size:cover;
+}
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
