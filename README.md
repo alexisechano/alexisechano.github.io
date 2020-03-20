@@ -1,3 +1,3 @@
 # Github Repository: alexisechano.github.io
-just a quick side project I worked on over the summer...my very own website:
+A project I have been developing for the past couple of years...
 https://alexisechano.github.io
