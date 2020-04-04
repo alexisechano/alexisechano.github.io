@@ -8,7 +8,9 @@
     <title>Alexis Echano</title>
       <style>
         @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway&display=swap');
-        * {box-sizing:border-box}
+        * {
+          box-sizing:border-box
+        }
         html,body,main{
           height: 100%;
           scroll-behavior: smooth;
@@ -66,21 +68,6 @@
           color: #6A81B3;
           font-family: 'Raleway';
         }
-        .skills{
-          padding-top: 1%;
-          padding-bottom: 1%;
-        }
-        progress[value] {
-          /* Reset the default appearance */
-          -webkit-appearance: none;
-           appearance: none;
-          width: 600px;
-          height: 20px;
-        }
-        progress[value]::-webkit-progress-value {
-          background-color: #6A81B3;
-            background-size: 35px 20px, 100% 100%, 100% 100%;
-        }
         @media screen and (min-width: 800px) {
             .card {
                 flex: 0 1 50%;
@@ -114,7 +101,6 @@
             left: 50%;
             transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
             text-align: center; 
         }
         .card-ti h6{
@@ -126,7 +112,6 @@
           font-size: 1em;
           font-family: 'Raleway';
           color: black;
-	  z-index:2;
         }      
         .cards .card:hover > .card-img{
           opacity: 20%;
@@ -164,6 +149,78 @@
           font-family: 'Crimson Text';
           color: black;
         }
+        .u-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .skills {
+            margin-top: 0;
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+
+        .skill {
+            margin: 1em 0;
+            position: relative;
+            width: 22.5em;
+        }
+
+        .skill__type {
+            color: #6A81B3;
+            font-weight: 300;
+            font-family: 'Raleway';
+            font-size: .8em;
+            letter-spacing: .145em;
+            text-transform: uppercase;
+            width: 5em;
+        }
+
+        .skill__outer-bar, .skill__inner-bar {
+            height: .75em;
+        }
+
+        .skill__outer-bar {
+            margin-top: 1em;
+            background: #333;
+        }
+
+        .skill__inner-bar {
+            animation: fillBar 1s forwards;
+            transform: scaleX(0);
+            transform-origin: 0 0;
+        }
+
+        .skill__inner-bar--100 {
+            width: 100%;
+            background: #A7BCE8;
+        }
+        .skill__inner-bar--90 {
+            width: 90%;
+            background: #A7BCE8;
+        }
+        .skill__inner-bar--80 {
+            width: 80%;
+            background: #A7BCE8;
+        }
+        .skill__inner-bar--70 {
+            width: 80%;
+            background: #A7BCE8;
+        }
+        .skill__inner-bar--60 {
+            width: 90%;
+            background: #A7BCE8;
+        }
+
+        @keyframes fillBar {
+            to {
+                transform: scaleX(1);
+            }
+        }
       </style>
     </head>
   <body>
@@ -199,9 +256,8 @@
 	          <div class="contacts">
               <a class="contact-icon" href="https://www.linkedin.com/in/aechano"><img alt="LinkedIn" src="img/linkedin.png"></a>
               <a class="contact-icon" href="http://github.com/alexisechano"><img alt="GitHub" src="img/github.svg"></a>
-              <a class="contact-icon" href="resume.pdf"><img alt="Resume" src="img/resume.png"></a>
+              <a class="contact-icon" href="#comingsoon"><img alt="Resume" src="img/resume.png"></a>
               <a class="contact-icon" href="mailto:alexis.echano@gmail.com"><img alt="Email" src="img/email.png"></a>
-			  <a class="contact-icon" href="https://www.youtube.com/channel/UCrmmcOSdK_oFMoGCdDU-ooQ"><img alt="YouTube" src="img/yt.png"></a>
             </div>
 	         </div>
 	         <div class="img-hero col col-6">
@@ -220,31 +276,41 @@
 				      <img class ="img-icon" src="img/web-icon.png" alt="">
           	</div>
           	<div class = "second-abt col col-6">
-          		<p><strong>language experience:</strong></p>
-              <div class="progress-bars" >
-                <ul class="language-prog">
-                  <div class = "html-skill skills row">
-                    <li class="html-item col col-2">HTML/CSS</li>
-                    <progress max="100" value="70" class="html-prog col col-10"></progress>
+          		<h2><strong>language experience:</strong></h2>
+              <div class="u-center">
+                      <div class="skills">
+                          <div class="skill">
+                              <h3 class="skill__type">HTML</h3>
+                              <div class="skill__outer-bar">
+                                  <div class="skill__inner-bar skill__inner-bar--80"></div>
+                              </div>
+                          </div>
+                          <div class="skill">
+                              <h3 class="skill__type">CSS</h3>
+                              <div class="skill__outer-bar">
+                                  <div class="skill__inner-bar skill__inner-bar--80"></div>
+                              </div>
+                          </div>
+                          <div class="skill">
+                              <h3 class="skill__type">Java</h3>
+                              <div class="skill__outer-bar">
+                                  <div class="skill__inner-bar skill__inner-bar--90"></div>
+                              </div>
+                          </div>
+                          <div class="skill">
+                              <h3 class="skill__type">Python</h3>
+                              <div class="skill__outer-bar">
+                                  <div class="skill__inner-bar skill__inner-bar--100"></div>
+                              </div>
+                          </div>
+                          <div class="skill">
+                              <h3 class="skill__type">JS</h3>
+                              <div class="skill__outer-bar">
+                                  <div class="skill__inner-bar skill__inner-bar--60"></div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class = "js-skill skills row">
-                    <li class="js-item col col-2">Javascript</li>
-                    <progress max="100" value="60" class="html-prog col col-10"></progress>
-                  </div>
-                  <div class = "python-skill skills row">
-                    <li class="python-item col col-2">Python</li>
-                    <progress max="100" value="95" class="html-prog col col-10"></progress>
-                  </div>
-                  <div class = "java-skill skills row">
-                    <li class="java-item col col-2">Java</li>
-                    <progress max="100" value="90" class="html-prog col col-10"></progress>
-                  </div>
-                  <div class = "ccc-skill skills row">
-                    <li class="ccc-item col col-2">C++</li>
-                    <progress max="100" value="70" class="html-prog col col-10"></progress>
-                  </div>
-                </ul>
-              </div>
           	</div>
           </div>
 
