@@ -116,7 +116,12 @@ padding: 2%;
 font-size: 1.2em;
 color: #6A81B3;
 font-family: 'Raleway';
-}      
+} 
+.about h2{
+font-size: 1.2em;
+color: #6A81B3;
+font-family: 'Raleway';
+}     
 .img-icon{
  height: 150px;
 }
