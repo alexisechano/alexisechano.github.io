@@ -2,4 +2,4 @@
 
 https://alexisechano.github.io/
 
-note: there are some issues with the hover elements, currently being fixed!
+note: as of april 2023, my site is going under construction!
