@@ -26,7 +26,7 @@ export default function Home() {
               Resume
             </a>
             <a id="github" className="text-md text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="https://github.com/alexisechano">
-              Github
+              GitHub
             </a>
             <a id="email" className="text-md text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="mailto:alexis.echano@gmail.com">
               Email
@@ -59,7 +59,7 @@ export default function Home() {
               Resume
             </a>
             <a id="github" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="https://github.com/alexisechano">
-              Github
+              GitHub
             </a>
             <a id="email" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="mailto:alexis.echano@gmail.com">
               Email
@@ -85,7 +85,7 @@ export default function Home() {
               Resume
             </a>
             <a id="github" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="https://github.com/alexisechano">
-              Github
+              GitHub
             </a>
             <a id="email" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="mailto:alexis.echano@gmail.com">
               Email
