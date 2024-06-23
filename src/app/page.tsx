@@ -12,7 +12,7 @@ export default function Home() {
             👋🏼 Hi there! I'm currently a Product Manager at <a href="https://www.paloaltonetworks.com/" className="underline hover:text-gray-500">Palo Alto Networks</a>. Previously, I was a software engineer at <a href="https://www.meta.com/" className="underline hover:text-gray-500">Meta</a>, an early builder at multiple startups, a fellow at <a href="https://www.pear.vc/" className="underline hover:text-gray-500">PearVC</a>, and a CS undergraduate at <a href="https://www.cs.stanford.edu/" className="underline hover:text-gray-500">Stanford</a>.
           </p>
           <Image 
-            src="/nextjs-github-pages/pic.jpg" 
+            src="/pic.jpg" 
             alt="Alexis Echano Profile Picture" 
             width={'150'}
             height={'0'}
