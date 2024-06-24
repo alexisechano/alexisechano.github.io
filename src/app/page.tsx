@@ -20,7 +20,7 @@ export default function Home() {
 
         <div id="rowofbuttons" className="flex flex-row gap-2 items-center mt-10">
             <a id="linkedin" className="text-md text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="https://www.linkedin.com/in/aechano/">
-              Linkedin
+              LinkedIn
             </a>
             <a id="resume" className="text-md text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="/resume.pdf">
               Resume
@@ -53,7 +53,7 @@ export default function Home() {
 
         <div id="rowofbuttons" className="flex flex-row gap-5 items-center mt-10">
             <a id="linkedin" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="https://www.linkedin.com/in/aechano/">
-              Linkedin
+              LinkedIn
             </a>
             <a id="resume" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="/resume.pdf">
               Resume
@@ -79,7 +79,7 @@ export default function Home() {
 
           <div id="rowofbuttons" className="flex flex-row gap-10 items-center">
             <a id="linkedin" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="https://www.linkedin.com/in/aechano/">
-              Linkedin
+              LinkedIn
             </a>
             <a id="resume" className="text-lg text-center bg-button-gray hover:bg-hov-button-gray basis-1/4 px-4 py-1 rounded-lg" href="/resume.pdf">
               Resume
