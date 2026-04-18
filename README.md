@@ -1,3 +1,5 @@
-# Welcome to your Lovable project
+# Personal Website
 
-TODO: Document your project here
+[https://alexisechano.github.io/](https://alexisechano.github.io/)
+
+Built with ❤️ with Typescript, Node.js, Claude, and Lovable!
