@@ -2,7 +2,6 @@ const links = [
   { label: "Email", value: "alexis.echano@gmail.com", href: "mailto:alexis.echano@gmail.com" },
   { label: "LinkedIn", value: "linkedin.com/in/aechano", href: "https://www.linkedin.com/in/aechano/" },
   { label: "GitHub", value: "github.com/alexisechano", href: "https://github.com/alexisechano" },
-  { label: "Resume", value: "View PDF →", href: "https://alexisechano.github.io/resume.pdf" },
 ];
 
 const Contact = () => {
