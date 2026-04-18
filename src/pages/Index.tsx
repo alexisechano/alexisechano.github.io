@@ -9,9 +9,9 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Alexis Echano — Product, Investing, Storytelling";
+    document.title = "Alexis Echano";
     const desc =
-      "Alexis Echano — Investor at Ardent, ex-Palo Alto Networks PM, ex-Meta engineer, Stanford CS '23. Building AI products and writing screenplays.";
+      "Alexis Echano — Investor at Ardent, ex-Palo Alto Networks PM, ex-Meta engineer, Stanford CS '23.";
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", desc);
     else {
