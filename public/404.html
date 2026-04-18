@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alexis Echano</title>
+    <script>
+      // GitHub Pages SPA redirect — preserves the path/query so the React app can route on load.
+      var l = window.location;
+      var redirect = l.pathname.replace(/\/$/, "") + l.search + l.hash;
+      sessionStorage.setItem("spa-redirect", redirect);
+      l.replace(l.origin + "/");
+    </script>
+  </head>
+  <body></body>
+</html>
