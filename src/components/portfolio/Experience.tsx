@@ -103,7 +103,7 @@ const Experience = () => {
         </div>
 
         <div className="mt-8 font-mono text-[11px] text-muted-foreground tracking-wider">
-          {">"} FADE OUT. Roll credits.
+          {">"} the work is mysterious and important.
         </div>
       </div>
     </section>

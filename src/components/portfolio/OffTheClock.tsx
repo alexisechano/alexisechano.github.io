@@ -39,7 +39,7 @@ const cards = [
 
 const OffTheClock = () => {
   return (
-    <section id="offline" className="py-24 md:py-32 border-t border-border bg-[hsl(var(--surface))]">
+    <section id="offline" className="py-24 md:py-32 border-t border-border">
       <div className="container">
         <div className="mb-14 max-w-2xl">
           <span className="file-tag">OFF-THE-CLOCK</span>
@@ -62,7 +62,7 @@ const OffTheClock = () => {
         </div>
 
         <p className="mt-10 font-mono text-xs text-muted-foreground tracking-wider">
-          {">"} the work is mysterious and important.
+          {">"} FADE OUT. Roll credits.
         </p>
       </div>
     </section>

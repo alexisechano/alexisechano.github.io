@@ -1,3 +1,4 @@
+{/* Not in use */}
 const items = [
   { label: "Investing", value: "Sourcing AI-native founders and companies for Ardent." },
   { label: "Reading", value: "Founder memos, research papers, and a stack of stories." },

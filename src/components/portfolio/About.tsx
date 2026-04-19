@@ -1,8 +1,8 @@
 const traits = [
-  { k: "Investing", v: "Pre-seed & seed at Ardent — AI-native software." },
-  { k: "Operating", v: "PM brain — discovery, prioritization, ship the thing." },
-  { k: "Wiring", v: "CS background — I read the code, architect the product." },
-  { k: "Imagining", v: "Creative endeavors after hours - watching or writing." },
+  { k: "Investing", v: "Early-stage at Ardent: AI-native software." },
+  { k: "Operating", v: "Discovery, prioritization, ship the thing." },
+  { k: "Wiring", v: "I read the code, architect the product." },
+  { k: "Imagining", v: "Creative endeavors after hours, watching or writing." },
 ];
 
 const About = () => {
@@ -29,12 +29,6 @@ const About = () => {
               <em className="text-primary not-italic font-medium"> AI security products</em> at
               Palo Alto Networks, and the years before that
               <em className="text-primary not-italic font-medium"> writing code</em> at Meta.
-            </p>
-            <p className="text-base leading-relaxed text-muted-foreground">
-              The story is changing. She's now an investor at <span className="text-foreground font-medium">Ardent</span>,
-              a thesis-driven pre-seed and seed firm backing AI-native founders before
-              the category exists. She likes founders the way she likes characters:
-              specific, contradictory, and impossible to look away from.
             </p>
             <p className="font-mono text-xs text-muted-foreground tracking-wider italic border-l-2 border-primary pl-4">
               {">"} CUT TO: a spreadsheet, a thesis doc, and a half-finished story — all open.

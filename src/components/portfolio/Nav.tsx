@@ -1,7 +1,6 @@
 const links = [
   { href: "#about", label: "Cold Open" },
   { href: "#experience", label: "Episodes" },
-  { href: "#now", label: "Now" },
   { href: "#offline", label: "Off-the-clock" },
   { href: "#contact", label: "Contact" },
 ];

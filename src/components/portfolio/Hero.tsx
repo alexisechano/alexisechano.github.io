@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 const phrases = [
   "shipping AI products",
   "writing the next scene",
-  "reading the next pitch",
-  "currently refining",
   "analyzing the market",
   "meeting exceptional builders"
 ];
@@ -132,18 +130,17 @@ const Hero = () => {
                       <div><span className="text-muted-foreground"># alexis.py</span></div>
                       <div><span className="text-primary">class</span> <span className="text-foreground">Alexis</span><span className="text-muted-foreground">:</span></div>
                       <div className="pl-4"><span className="text-foreground">role</span> <span className="text-muted-foreground">=</span> <span className="text-accent-foreground">"SWE → PM → VC"</span></div>
-                      <div className="pl-4"><span className="text-foreground">stack</span> <span className="text-muted-foreground">=</span> <span className="text-muted-foreground">[</span><span className="text-accent-foreground">"AI"</span><span className="text-muted-foreground">,</span> <span className="text-accent-foreground">"prose"</span><span className="text-muted-foreground">]</span></div>
                       <div>&nbsp;</div>
-                      <div className="pl-4"><span className="text-primary">def</span> <span className="text-foreground">now</span><span className="text-muted-foreground">(self) -&gt;</span> <span className="text-primary">str</span><span className="text-muted-foreground">:</span></div>
-                      <div className="pl-8"><span className="text-primary">return</span> <span className="text-accent-foreground">"open to chats"</span></div>
+                      <div className="pl-4"><span className="text-primary">def</span> <span className="text-foreground">now</span><span className="text-muted-foreground">(self) -&gt;</span> <span className="text-primary">list</span><span className="text-muted-foreground">:</span></div>
+                      <div className="pl-8"><span className="text-primary">return</span> <span className="text-muted-foreground">[</span></div>
+                      {phrases.map((p) => (
+                        <div key={p} className="pl-12 normal-case tracking-normal">
+                          <span className="text-accent-foreground">"{p}"</span><span className="text-muted-foreground">,</span>
+                        </div>
+                      ))}
+                      <div className="pl-8"><span className="text-muted-foreground">]</span></div>
                       <div>&nbsp;</div>
                       <div><span className="text-muted-foreground">&gt;&gt;&gt;</span> <span className="text-foreground">Alexis</span><span className="text-muted-foreground">().now()</span></div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-muted-foreground"># →</span>
-                        <span className="text-foreground terminal-cursor min-w-[180px] inline-block normal-case">
-                          {phrases[idx]}
-                        </span>
-                      </div>
                     </div>
                   </div>
                 )}
@@ -178,11 +175,11 @@ const Hero = () => {
                     </div>
                     {[
                       ["01", "stealth.ai", "Seed", "✓ in"],
-                      ["02", "pluribus", "Pre-seed", "diligence"],
+                      ["02", "plurb", "Pre-seed", "diligence"],
                       ["03", "lumon industries", "Series A", "passing"],
                       ["04", "pawnee inc.", "Seed", "✓ in"],
-                      ["05", "ender's game", "Pre-seed", "intro'd"],
-                      ["06", "dune.dev", "Seed", "diligence"],
+                      ["05", "dune.dev", "Pre-seed", "intro'd"],
+                      ["06", "schmidt.fun", "Seed", "diligence"],
                       ["07", "the force", "Pre-seed", "tracking"],
                     ].map(([n, c, s, st]) => (
                       <div key={n} className="grid grid-cols-[2.5rem_1fr_5rem_4rem] border-b border-border/60 hover:bg-[hsl(var(--surface))]/40 transition-colors">
