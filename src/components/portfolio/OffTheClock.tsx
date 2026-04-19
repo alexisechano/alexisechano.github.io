@@ -13,7 +13,7 @@ const cards = [
   },
   {
     cat: "Comfort",
-    title: "Sitcoms forever",
+    title: "Sitcoms & Comedy",
     note: "The 22-minute reset button. Tightly written, deeply re-watchable, secretly hard to make.",
     accent: "from-accent to-primary-soft",
   },
