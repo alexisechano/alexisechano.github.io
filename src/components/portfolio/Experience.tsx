@@ -6,7 +6,7 @@ const roles = [
     org: "Ardent",
     logline:
       "A thesis-driven venture firm backing exceptional founders building AI-native software before the category exists.",
-    tags: ["Pre-seed", "AI-native", "Software"],
+    tags: ["Early-stage", "AI-native", "Software"],
   },
   {
     period: "Aug 2023 — May 2026",
@@ -15,7 +15,7 @@ const roles = [
     org: "Palo Alto Networks",
     logline:
       "Three years embedded in the heart of enterprise security — leveling up the best-of-breed security platform.",
-    tags: ["Generative AI", "Agentic", "Enterprise"],
+    tags: ["Machine learning", "Security", "Enterprise"],
   },
   {
     period: "Jun 2022 — Sep 2022",
@@ -24,7 +24,7 @@ const roles = [
     org: "Meta",
     logline:
       "A summer inside the recruiting machine — building the tool that tells the recruiters when the offer lands.",
-    tags: ["Internal tools", "PHP", "Real-time"],
+    tags: ["Internal tools", "PHP", "Enterprise"],
   },
   {
     period: "Jan 2022 — Jun 2022",
@@ -33,7 +33,7 @@ const roles = [
     org: "Fortuna",
     logline:
       "A seed-stage consumer marketplace for Gen Z. Move fast, listen harder, ship before the trend turns.",
-    tags: ["Consumer", "Seed-stage", "Social"],
+    tags: ["Consumer", "Seed-stage", "Marketplace"],
   },
   {
     period: "Jun 2020 — Jun 2021",

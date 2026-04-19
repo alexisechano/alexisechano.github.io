@@ -36,7 +36,7 @@ const Hero = () => {
 
         <div className="mt-10 max-w-2xl space-y-5 animate-fade-up" style={{ animationDelay: "0.15s" }}>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Investor at Ardent. Stanford alum with a toolbelt forged in early-stage startups and sharpened at Meta and Palo Alto Networks, shipping code to shipping strategy.
+            Investor at Ardent. Stanford alum with a toolbelt forged in early-stage startups and sharpened at Meta and Palo Alto Networks.
           </p>
 
           <div className="flex items-center gap-3 font-mono text-sm">

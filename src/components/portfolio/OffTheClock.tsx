@@ -62,7 +62,7 @@ const OffTheClock = () => {
         </div>
 
         <p className="mt-10 font-mono text-xs text-muted-foreground tracking-wider">
-          {">"} the work you choose to do at the end of the day reveals who you are. — kier (kidding) (mostly)
+          {">"} the work is mysterious and important.
         </p>
       </div>
     </section>
