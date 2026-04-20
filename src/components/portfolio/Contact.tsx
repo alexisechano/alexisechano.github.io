@@ -6,7 +6,7 @@ const links = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 md:py-32 border-t border-border bg-[hsl(var(--surface))]">
+    <section id="contact" className="py-24 md:py-32 border-t border-border">
       <div className="container">
         <div className="grid md:grid-cols-12 gap-10 items-start">
           <div className="md:col-span-6">

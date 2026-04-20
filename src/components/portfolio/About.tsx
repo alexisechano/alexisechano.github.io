@@ -7,7 +7,7 @@ const traits = [
 
 const About = () => {
   return (
-    <section id="about" className="py-24 md:py-32 border-t border-border">
+    <section id="about" className="py-24 md:py-32 border-t border-border bg-[hsl(var(--surface))]">
       <div className="container">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-4">

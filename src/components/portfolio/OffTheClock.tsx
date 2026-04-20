@@ -39,7 +39,7 @@ const cards = [
 
 const OffTheClock = () => {
   return (
-    <section id="offline" className="py-24 md:py-32 border-t border-border">
+    <section id="offline" className="py-24 md:py-32 border-t border-border bg-[hsl(var(--surface))]">
       <div className="container">
         <div className="mb-14 max-w-2xl">
           <span className="file-tag">OFF-THE-CLOCK</span>

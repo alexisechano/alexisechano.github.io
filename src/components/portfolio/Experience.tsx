@@ -1,6 +1,6 @@
 const roles = [
   {
-    period: "May 2026 — Present",
+    period: "2026 — Present",
     slug: "INT. ARDENT HQ — SAN FRANCISCO / WASHINGTON D.C. — DAY",
     title: "Investor",
     org: "Ardent",
@@ -9,7 +9,7 @@ const roles = [
     tags: ["Early-stage", "AI-native", "Software"],
   },
   {
-    period: "Aug 2023 — May 2026",
+    period: "2023 — 2026",
     slug: "INT. PALO ALTO NETWORKS — SANTA CLARA — DAY",
     title: "Product Manager",
     org: "Palo Alto Networks",
@@ -18,7 +18,7 @@ const roles = [
     tags: ["Machine learning", "Security", "Enterprise"],
   },
   {
-    period: "Jun 2022 — Sep 2022",
+    period: "2022",
     slug: "INT. META HQ — MENLO PARK — DAY",
     title: "Software Engineering Intern",
     org: "Meta",
@@ -27,7 +27,7 @@ const roles = [
     tags: ["Internal tools", "PHP", "Enterprise"],
   },
   {
-    period: "Jan 2022 — Jun 2022",
+    period: "2022",
     slug: "INT. FORTUNA — MIAMI / PALO ALTO — DAY",
     title: "Product Manager",
     org: "Fortuna",
@@ -36,7 +36,7 @@ const roles = [
     tags: ["Consumer", "Seed-stage", "Marketplace"],
   },
   {
-    period: "Jun 2020 — Jun 2021",
+    period: "2020 — 2021",
     slug: "INT. EMPOWER — MCLEAN — DAY",
     title: "Software Engineering Intern",
     org: "Empower",
@@ -48,7 +48,7 @@ const roles = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-24 md:py-32 border-t border-border bg-[hsl(var(--surface))]">
+    <section id="experience" className="py-24 md:py-32 border-t border-border">
       <div className="container">
         <div className="flex items-end justify-between flex-wrap gap-4 mb-14">
           <div>
@@ -57,8 +57,7 @@ const Experience = () => {
               The <span className="italic text-primary">work</span>, told as a series.
             </h2>
             <p className="mt-4 text-muted-foreground max-w-xl leading-relaxed">
-              Each role is a scene. Characters, logline, story beats. Read it like a script —
-              because honestly, that's how I remember it.
+              Below is a series of episodes—scripts where the story beats change but the character evolves, sharpening my craft with every new season to meet the scale of the next production.
             </p>
           </div>
           <span className="label-mono">{`0${roles.length} episodes · sorted desc`}</span>
@@ -68,7 +67,7 @@ const Experience = () => {
           {roles.map((r, i) => (
             <article
               key={i}
-              className="group bg-background p-6 md:p-8 grid md:grid-cols-12 gap-4 md:gap-8 hover:bg-card transition-colors"
+              className="group  bg-[hsl(var(--surface))] p-6 md:p-8 grid md:grid-cols-12 gap-4 md:gap-8 hover:bg-card transition-colors"
             >
               <div className="md:col-span-3">
                 <div className="font-mono text-xs text-primary tracking-wider">{r.period}</div>
