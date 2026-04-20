@@ -44,7 +44,7 @@ const OffTheClock = () => {
         <div className="mb-14 max-w-2xl">
           <span className="file-tag">OFF-THE-CLOCK</span>
           <h2 className="display-serif text-4xl md:text-5xl mt-4 leading-tight">
-            What I do when nobody's <span className="italic text-primary">measuring</span>.
+            The <span className="italic text-primary">side quests</span> I'm up to.
           </h2>
         </div>
 
