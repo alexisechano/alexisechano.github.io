@@ -14,7 +14,7 @@ const roles = [
     title: "Product Manager",
     org: "Palo Alto Networks",
     logline:
-      "Three years embedded in the heart of enterprise security — leveling up the best-of-breed security platform.",
+      "Three years embedded in the heart of enterprise security, leveling up the best-of-breed security platform.",
     tags: ["Machine learning", "Security", "Enterprise"],
   },
   {
@@ -23,7 +23,7 @@ const roles = [
     title: "Software Engineering Intern",
     org: "Meta",
     logline:
-      "A summer inside the recruiting machine — building the tool that tells the recruiters when the offer lands.",
+      "A summer inside the recruiting machine: building the tool that tells the recruiters when the offer lands.",
     tags: ["Internal tools", "PHP", "Enterprise"],
   },
   {
@@ -57,7 +57,7 @@ const Experience = () => {
               The <span className="italic text-primary">work</span>, told as a series.
             </h2>
             <p className="mt-4 text-muted-foreground max-w-xl leading-relaxed">
-              Below is a series of episodes—scripts where the story beats change but the character evolves, sharpening my craft with every new season to meet the scale of the next production.
+              Each role is a new episode with unique characters, loglines, and story beats. The scope expands every episode, layering new expertise onto the foundation of the episodes that came before.
             </p>
           </div>
           <span className="label-mono">{`0${roles.length} episodes · sorted desc`}</span>
@@ -83,7 +83,6 @@ const Experience = () => {
                 </h3>
                 <div className="text-sm text-muted-foreground mt-1">{r.org}</div>
                 <p className="mt-4 text-foreground/90 leading-relaxed italic">
-                  <span className="not-italic font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mr-2">Logline —</span>
                   {r.logline}
                 </p>
               </div>
