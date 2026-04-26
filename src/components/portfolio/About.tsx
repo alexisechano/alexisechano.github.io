@@ -28,10 +28,7 @@ const About = () => {
               and a story draft. She has spent the last few years shipping
               <em className="text-primary not-italic font-medium"> AI security products</em> at
               Palo Alto Networks, and the years before that
-              <em className="text-primary not-italic font-medium"> writing code</em> at Meta.
-            </p>
-            <p className="font-mono text-xs text-muted-foreground tracking-wider italic border-l-2 border-primary pl-4">
-              {">"} CUT TO: a spreadsheet, a thesis doc, and a half-finished story — all open.
+              <em className="text-primary not-italic font-medium"> writing code</em> at Meta and other startups.
             </p>
 
             <ul className="mt-8 divide-y divide-border border-y border-border">

@@ -150,8 +150,8 @@ const Hero = () => {
                     <div className="label-mono">pilot.fdx — draft v.2026</div>
                     <div className="uppercase tracking-wider">INT. SAN FRANCISCO — CONTINUOUS</div>
                     <p className="leading-relaxed text-muted-foreground normal-case tracking-normal">
-                      A laptop hums. Two browser tabs: one a pitch deck, the other a screenplay.
-                      ALEXIS toggles between them without breaking eye contact.
+                      A laptop hums. A bunch of tabs open on her screen.
+                      ALEXIS toggles between them without blinking.
                     </p>
                     <div className="text-center uppercase tracking-[0.2em] pt-2">Alexis</div>
                     <div className="text-center text-muted-foreground italic normal-case">(to no one in particular)</div>

@@ -4,45 +4,50 @@ const roles = [
     slug: "INT. ARDENT HQ — SAN FRANCISCO / WASHINGTON D.C. — DAY",
     title: "Investor",
     org: "Ardent",
+    orgUrl: "https://ardent.vc/",
     logline:
       "A thesis-driven venture firm backing exceptional founders building AI-native software before the category exists.",
-    tags: ["Early-stage", "AI-native", "Software"],
+    tags: ["Early-stage", "Artificial Intelligence", "Emerging categories"],
   },
   {
     period: "2023 — 2026",
     slug: "INT. PALO ALTO NETWORKS — SANTA CLARA — DAY",
     title: "Product Manager",
     org: "Palo Alto Networks",
+    orgUrl: "https://www.paloaltonetworks.com/",
     logline:
-      "Three years embedded in the heart of enterprise security, leveling up the best-of-breed security platform.",
-    tags: ["Machine learning", "Security", "Enterprise"],
+      "Three years embedded in the heart of enterprise security, leveling up the best-of-breed security platform to protect millions of endpoints and users worldwide.",
+    tags: ["Artificial Intelligence", "Security", "Enterprise"],
   },
   {
     period: "2022",
     slug: "INT. META HQ — MENLO PARK — DAY",
     title: "Software Engineering Intern",
     org: "Meta",
+    orgUrl: "https://www.meta.com/about/",
     logline:
-      "A summer inside the recruiting machine: building the tool that tells the recruiters when the offer lands.",
-    tags: ["Internal tools", "PHP", "Enterprise"],
+      "A second summer inside one of the most renowned tech companies, this time within the recruiting machine: building the tool that tells the recruiters when the offer lands.",
+    tags: ["Internal tools", "Automation", "Enterprise"],
   },
   {
     period: "2022",
     slug: "INT. FORTUNA — MIAMI / PALO ALTO — DAY",
     title: "Product Manager",
     org: "Fortuna",
+    orgUrl: "https://www.linkedin.com/company/fortuna-jobs/posts/?feedView=all",
     logline:
-      "A seed-stage consumer marketplace for Gen Z. Move fast, listen harder, ship before the trend turns.",
-    tags: ["Consumer", "Seed-stage", "Marketplace"],
+      "A seed-stage consumer marketplace for Gen Z. Move fast, listen harder, launch before the trend turns.",
+    tags: ["Consumer", "Early-stage", "Marketplace"],
   },
   {
     period: "2020 — 2021",
     slug: "INT. EMPOWER — MCLEAN — DAY",
     title: "Software Engineering Intern",
     org: "Empower",
+    orgUrl: "https://driveempower.com/",
     logline:
-      "First real engineering job. First fraud detection engine. First time building a team from scratch.",
-    tags: ["Azure", "Fraud detection", "Team-building"],
+      "One of the first engineers. First fraud detection engine. First time building a team from scratch. Now, a huge disruptor in the rideshare industry.",
+    tags: ["Consumer", "Internal tools", "Automation"],
   },
 ];
 
@@ -56,9 +61,6 @@ const Experience = () => {
             <h2 className="display-serif text-4xl md:text-5xl mt-4 leading-tight max-w-xl">
               The <span className="italic text-primary">work</span>, told as a series.
             </h2>
-            <p className="mt-4 text-muted-foreground max-w-xl leading-relaxed">
-              Each role is a new episode with unique characters, loglines, and story beats. The scope expands every episode, layering new expertise onto the foundation of the episodes that came before.
-            </p>
           </div>
           <span className="label-mono">{`0${roles.length} episodes · sorted desc`}</span>
         </div>
@@ -81,7 +83,14 @@ const Experience = () => {
                 <h3 className="display-serif text-2xl md:text-3xl text-foreground leading-snug">
                   {r.title}
                 </h3>
-                <div className="text-sm text-muted-foreground mt-1">{r.org}</div>
+                <a
+                  href={r.orgUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-sm text-muted-foreground mt-1 underline-grow hover:text-primary transition-colors"
+                >
+                  {r.org}
+                </a>
                 <p className="mt-4 text-foreground/90 leading-relaxed italic">
                   {r.logline}
                 </p>
