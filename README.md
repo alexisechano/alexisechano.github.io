@@ -1,5 +1,5 @@
-# Alexis Echano's Website
+# Personal Website
 
-https://alexisechano.github.io/
+[https://alexisechano.github.io/](https://alexisechano.github.io/)
 
-Built with ❤️ using NextJS and React by Alexis Echano
+Built with ❤️ using Typescript, Node.js, Claude, and Lovable!
