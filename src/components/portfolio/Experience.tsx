@@ -26,7 +26,7 @@ const roles = [
     org: "Meta",
     orgUrl: "https://www.meta.com/about/",
     logline:
-      "A second summer inside one of the most renowned tech companies, this time within the recruiting machine: building the tool that tells the recruiters when the offer lands.",
+      "A second summer inside one of the most renowned tech companies, this time within the recruiting machine: building tools that tell recruiters when the offer lands.",
     tags: ["Internal tools", "Automation", "Enterprise"],
   },
   {
