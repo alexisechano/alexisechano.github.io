@@ -47,10 +47,6 @@ const Contact = () => {
                 ))}
               </ul>
             </div>
-
-            <div className="mt-4 font-mono text-[10px] text-muted-foreground tracking-wider">
-              {">"} response time: usually within a workday. occasionally faster than expected.
-            </div>
           </div>
         </div>
 
